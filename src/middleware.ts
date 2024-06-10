@@ -8,6 +8,11 @@ export default async function middleware(req: NextRequest) {
         page: "/",
         contry: req.geo?.country,
       });
+
+      console.log("pageview", {
+        page: "/",
+        contry: req.geo?.country,
+      });
     } catch (error) {
       console.error(error);
     }
