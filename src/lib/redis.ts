@@ -1,6 +1,6 @@
 import { Redis } from "@upstash/redis";
 
 export const redis = new Redis({
-  url: "https://good-kangaroo-54679.upstash.io",
+  url: "https://funny-boxer-54682.upstash.io",
   token: process.env.REDIS_KEY!,
 });
